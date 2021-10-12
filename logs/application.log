@@ -1320,3 +1320,32 @@ java.lang.IllegalArgumentException: Can not set int field com.santoadji.springwe
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
 
+2021-10-12 10:39:21.032  INFO 10044 --- [main] c.s.s.santoadji.SantoadjiApplication     : Starting SantoadjiApplication using Java 11.0.9 on DESKTOP-V7T0TSA with PID 10044 (H:\Java\Springboot-fundamental\santoadji\target\classes started by 21129798 in H:\Java\Springboot-fundamental\santoadji)
+2021-10-12 10:39:21.035  INFO 10044 --- [main] c.s.s.santoadji.SantoadjiApplication     : No active profile set, falling back to default profiles: default
+2021-10-12 10:39:22.243  INFO 10044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-12 10:39:22.310  INFO 10044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2021-10-12 10:39:22.842  INFO 10044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-12 10:39:22.872  INFO 10044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-12 10:39:22.872  INFO 10044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-12 10:39:22.984  INFO 10044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/API]    : Initializing Spring embedded WebApplicationContext
+2021-10-12 10:39:22.985  INFO 10044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1875 ms
+2021-10-12 10:39:23.291  INFO 10044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-12 10:39:25.292  INFO 10044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-12 10:39:25.350  INFO 10044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-12 10:39:25.395  INFO 10044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-12 10:39:25.518  INFO 10044 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-12 10:39:25.654  INFO 10044 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-10-12 10:39:26.181  INFO 10044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-12 10:39:26.191  INFO 10044 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-12 10:39:26.679  WARN 10044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 10:39:26.921  INFO 10044 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-10-12 10:39:27.005  INFO 10044 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-12 10:39:27.382  INFO 10044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/API'
+2021-10-12 10:39:27.383  INFO 10044 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-12 10:39:27.405  INFO 10044 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-12 10:39:27.458  INFO 10044 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-12 10:39:27.568  INFO 10044 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getProductUsingGET_1
+2021-10-12 10:39:27.609  INFO 10044 --- [main] c.s.s.santoadji.SantoadjiApplication     : Started SantoadjiApplication in 7.057 seconds (JVM running for 8.878)
+2021-10-12 10:39:28.660  INFO 10044 --- [RMI TCP Connection(1)-169.254.172.180] o.a.c.c.C.[Tomcat].[localhost].[/API]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-12 10:39:28.661  INFO 10044 --- [RMI TCP Connection(1)-169.254.172.180] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-12 10:39:28.663  INFO 10044 --- [RMI TCP Connection(1)-169.254.172.180] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

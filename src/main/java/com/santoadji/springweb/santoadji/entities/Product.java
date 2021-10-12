@@ -20,10 +20,6 @@ public class Product {
         this.amount = amount;
     }
 
-
-
-
-
     public int getId() {
         return id;
     }
