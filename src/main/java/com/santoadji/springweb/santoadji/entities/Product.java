@@ -1,9 +1,6 @@
 package com.santoadji.springweb.santoadji.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Product {
@@ -13,6 +10,19 @@ public class Product {
     private String name;
     private String description;
     private int price;
+    private Integer amount;
+
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
+    }
+
+
+
+
 
     public int getId() {
         return id;
